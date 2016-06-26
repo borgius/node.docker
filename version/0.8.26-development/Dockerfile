@@ -1,4 +1,4 @@
-FROM cusspvz/node:0.8.26
+FROM borgius/node-alpine:0.8.26
 
 # development image specially created for builds
 # This should include all resources for a node-based project such as:

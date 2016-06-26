@@ -21,7 +21,7 @@ Suff related directly with `npm` and your app, should stay at `package.json`.
 
 `Dockerfile`
 ```Dockerfile
-FROM cusspvz/node:0.12.7-onbuild
+FROM borgius/node-alpine:0.12.7-onbuild
 EXPOSE 3000 # You may need to change this to your app's port
 ```
 
@@ -59,14 +59,14 @@ have to use regular version.
 
 ### onbuild way:
 ```Dockerfile
-FROM cusspvz/node:0.12.7-onbuild
+FROM borgius/node-alpine:0.12.7-onbuild
 RUN apk --update add package-a package-b && \
     rm -fR /var/cache/apk/*;
 ```
 
 ### regular way:
 ```Dockerfile
-FROM cusspvz/node:0.12.7
+FROM borgius/node-alpine:0.12.7
 RUN apk --update add package-a package-b && \
     rm -fR /var/cache/apk/*;
 

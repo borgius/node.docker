@@ -1,4 +1,4 @@
-FROM cusspvz/node:0.1.28
+FROM borgius/node-alpine:0.1.28
 
 # For sugar automated builds
 ONBUILD ENV NODE_ENV=production

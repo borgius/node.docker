@@ -32,9 +32,9 @@ gen-version:
 	@echo "Generating version dockerfiles: ${VERSION_PATH} ${VERSION_ONBUILD_PATH} ${VERSION_DEVELOPMENT_PATH}"
 	@mkdir -p ${VERSION_PATH} ${VERSION_ONBUILD_PATH} ${VERSION_DEVELOPMENT_PATH}
 	@cat Dockerfile | sed -e "s/NODE_VERSION=latest/NODE_VERSION=${VERSION}/" >${VERSION_PATH}/Dockerfile
-	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_ONBUILD_PATH}/Dockerfile
+	@echo "FROM borgius/node-alpine:${VERSION}" >${VERSION_ONBUILD_PATH}/Dockerfile
 	@cat Dockerfile.onbuild >> ${VERSION_ONBUILD_PATH}/Dockerfile;
-	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_DEVELOPMENT_PATH}/Dockerfile
+	@echo "FROM borgius/node-alpine:${VERSION}" >${VERSION_DEVELOPMENT_PATH}/Dockerfile
 	@cat Dockerfile.development >> ${VERSION_DEVELOPMENT_PATH}/Dockerfile;
 
 build: gen-version

@@ -54,7 +54,7 @@ for rapid development.
 
 Focus on your project instead of your **Dockerfile**. Keep It Simple, Stupid:
 ```Dockerfile
-FROM cusspvz/node:0.12.7-onbuild
+FROM borgius/node-alpine:0.12.7-onbuild
 ```
 
 [Learn more about Onbuild](./ONBUILD.README.md)
