@@ -15,18 +15,19 @@ VERSION_DEVELOPMENT_PATH := version/${TAG}-development/
 clean: clean-all-docker-images
 
 run: build
-	@docker run --rm -ti cusspvz/node:${TAG}
+	@docker run --rm -ti borgius/node-alpine:${TAG}
 
 run-bash: build
-	@docker run --rm -ti cusspvz/node:${TAG} /bin/login.sh
+	@docker run --rm -ti borgius/node-alpine:${TAG} /bin/login.sh
 
 fetch-versions:
 	@echo "latest" > versions
-	@wget https://nodejs.org/dist/ -O - 2>/dev/null | \
-	grep "/\">v" | grep -v isaacs-manual | \
-	sed -e 's/<a href="v\(.*\)\/".*/\1/' | \
-	sort -t . -k1,1nr -k2,1nr -k3,1nr \
-		>> versions
+	wget https://nodejs.org/dist/ -O - 2>/dev/null | \
+	grep "\">v" | \
+	grep -v isaacs-manual | \
+	sed -e 's/<a href="v\(.*\?\)\/.*/\1/' | \
+	sed -e 's/\\/.*//' | \
+	sort -t . -g -r >> versions
 
 gen-version:
 	@echo "Generating version dockerfiles: ${VERSION_PATH} ${VERSION_ONBUILD_PATH} ${VERSION_DEVELOPMENT_PATH}"
@@ -39,10 +40,10 @@ gen-version:
 
 build: gen-version
 	@echo "Building :${TAG} with ${VERSION} version"
-	@docker build -t cusspvz/node:${TAG} -f ${VERSION_PATH}/Dockerfile .
+	@docker build -t borgius/node-alpine:${TAG} -f ${VERSION_PATH}/Dockerfile .
 
 push: build
-	docker push cusspvz/node:${TAG}
+	docker push borgius/node-alpine:${TAG}
 
 gen-version-all:
 	@for VERSION in $(shell cat versions); do \

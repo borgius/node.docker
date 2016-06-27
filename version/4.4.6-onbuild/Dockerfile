@@ -1,4 +1,4 @@
-FROM borgius/node-alpine:6.2.2
+FROM borgius/node-alpine:4.4.6
 
 # For sugar automated builds
 ONBUILD ENV NODE_ENV=production
