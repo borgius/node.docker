@@ -1,4 +1,4 @@
-FROM borgius/node-alpine:5.9.0
+FROM borgius/node-alpine:latest
 
 # development image specially created for builds
 # This should include all resources for a node-based project such as:
