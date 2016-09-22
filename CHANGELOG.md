@@ -37,7 +37,7 @@ image.
 
 ## 6-Out-2015
 
-* Separated `onbuild` sugar feature to a different tagged images [#1](//github.com/cusspvz/node.docker/issues/1)
+* Separated `onbuild` sugar feature to a different tagged images [#1](//github.com/borgius/node.docker/issues/1)
 * Created this changelog!1 :p
 * Added a Javascript generator on Makefile to allow me to inject Build Settings
 on newer Docker Hub.

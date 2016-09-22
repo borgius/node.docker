@@ -6,7 +6,7 @@ A script that changes enhances your development workflow.
 
 ```bash
 # Put node.docker launcher into /usr/sbin :
-wget -O /usr/sbin/node.docker https://raw.githubusercontent.com/cusspvz/node.docker/master/launcher;
+wget -O /usr/sbin/node.docker https://raw.githubusercontent.com/borgius/node.docker/master/launcher;
 chmod +x /usr/sbin/node.docker;
 
 # In case you have node and prefer an NPM package:
@@ -20,7 +20,7 @@ bash-3.2$ node.docker 0.12.7
 (^C again to quit)
 >
 bash-3.2$ node.docker 4.1.1
-Unable to find image 'cusspvz/node:4.1.1' locally
+Unable to find image 'borgius/node-alpine:4.1.1' locally
 4.1.1: Pulling from cusspvz/node
 9caf287e1f2d: Pull complete
 8119db1f2d0a: Pull complete
@@ -38,7 +38,7 @@ b40cc318d49e: Pull complete
 763343bc22ae: Pull complete
 a002c2202bd2: Already exists
 Digest: sha256:71e6749ed7ed0d78d74973c3f8ec91a9a3716a277e9a608389507263d40bcf21
-Status: Downloaded newer image \for cusspvz/node:4.1.1
+Status: Downloaded newer image \for borgius/node-alpine:4.1.1
 > although 4.1.1 was not, it was pulled right away
 (^C again to quit)
 >

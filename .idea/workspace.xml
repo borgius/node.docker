@@ -1,771 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898fce6d-196e-43bc-982f-2fb5a16d41dd" name="Default" comment="generate last versions">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.100-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.100-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.100/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.101-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.101-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.101/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.102-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.102-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.102/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.103-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.103-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.103/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.104-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.104-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.104/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.16-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.16-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.16/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.17-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.17-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.17/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.18-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.18-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.18/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.19-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.19-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.19/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.20-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.20-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.20/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.21-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.21-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.21/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.22-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.22-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.22/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.23-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.23-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.23/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.24-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.24-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.24/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.25-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.25-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.25/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.26-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.26-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.26/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.27-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.27-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.27/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.28-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.28-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.28/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.29-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.29-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.29/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.30-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.30-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.30/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.31-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.31-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.31/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.32-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.32-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.32/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.33-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.33-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.33/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.90-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.90-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.90/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.91-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.91-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.91/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.92-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.92-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.92/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.93-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.93-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.93/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.94-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.94-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.94/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.95-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.95-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.95/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.96-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.96-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.96/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.97-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.97-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.97/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.98-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.98-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.98/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.99-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.99-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.1.99/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.13-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.13-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.13/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.16-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.16-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.16/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.17-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.17-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.17/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.18-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.18-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.18/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.19-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.19-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.19/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.20-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.20-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.20/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.21-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.21-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.21/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.22-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.22-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.22/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.23-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.23-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.23/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.24-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.24-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.24/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.25-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.25-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.25/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.26-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.26-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.26/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.27-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.27-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.27/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.28-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.28-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.28/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.29-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.29-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.29/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.30-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.30-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.30/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.31-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.31-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.31/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.32-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.32-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.32/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.33-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.33-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.33/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.34-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.34-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.34/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.35-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.35-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.35/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.36-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.36-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.36/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.37-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.37-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.37/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.38-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.38-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.38/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.39-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.39-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.39/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.40-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.40-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.40/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.41-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.41-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.41/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.42-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.42-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.42/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.43-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.43-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.43/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.44-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.44-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.44/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.45-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.45-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.45/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.46-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.46-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.46/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.10.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.13-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.13-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.13/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.16-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.16-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.16/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.11.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.13-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.13-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.13/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.12.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.2.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.3.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.4.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.5.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.13-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.13-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.13/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.16-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.16-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.16/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.17-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.17-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.17/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.18-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.18-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.18/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.19-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.19-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.19/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.20-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.20-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.20/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.21-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.21-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.21/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.6.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.7.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.13-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.13-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.13/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.14-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.14-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.14/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.15-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.15-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.15/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.16-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.16-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.16/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.17-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.17-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.17/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.18-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.18-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.18/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.19-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.19-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.19/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.20-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.20-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.20/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.21-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.21-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.21/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.22-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.22-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.22/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.23-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.23-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.23/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.24-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.24-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.24/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.25-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.25-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.25/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.26-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.26-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.26/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.27-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.27-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.27/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.28-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.28-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.28/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.8.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.10-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.10-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.10/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.11-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.11-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.11/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.12-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.12-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.12/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.7-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.7-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.7/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.8-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.8-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.8/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.9-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.9-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/0.9.9/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.0.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.0.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.0.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.1.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.2.6/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.3.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.0-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.0-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.0/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.1-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.1-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.2-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.2-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.2/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.3-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.3-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.3/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.4-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.4-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.4/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.5-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.5-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.5/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.6-development/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.6-onbuild/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/version/4.4.6/Dockerfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apks.tar.gz" afterPath="$PROJECT_DIR$/apks.tar.gz" />
+    <list default="true" id="898fce6d-196e-43bc-982f-2fb5a16d41dd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/version/latest-development/Dockerfile" afterPath="$PROJECT_DIR$/version/latest-development/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/version/latest-onbuild/Dockerfile" afterPath="$PROJECT_DIR$/version/latest-onbuild/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/version/latest/Dockerfile" afterPath="$PROJECT_DIR$/version/latest/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LAUNCHER.README.md" afterPath="$PROJECT_DIR$/LAUNCHER.README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ONBUILD.README.md" afterPath="$PROJECT_DIR$/ONBUILD.README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/launcher" afterPath="$PROJECT_DIR$/bin/launcher" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.travis.latest.yml" afterPath="$PROJECT_DIR$/src/.travis.latest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.travis.yml" afterPath="$PROJECT_DIR$/src/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Dockerfile" afterPath="$PROJECT_DIR$/src/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Dockerfile.development" afterPath="$PROJECT_DIR$/src/Dockerfile.development" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/versions" afterPath="$PROJECT_DIR$/versions" />
     </list>
     <ignored path="node.docker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -786,47 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version/5.1.0/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ONBUILD.README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ONBUILD.README.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile.onbuild" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile.onbuild">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="78" column="20" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -835,48 +48,48 @@
       <file leaf-file-name="versions" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/versions">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/version/latest/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="180">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version/latest-development/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version/latest-onbuild/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/src/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <file leaf-file-name="entrypoint" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entrypoint">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="-425">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.latest.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.travis.latest.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -893,9 +106,13 @@
         <option value="$PROJECT_DIR$/version/0.1.100-development/Dockerfile" />
         <option value="$PROJECT_DIR$/version/latest-development/Dockerfile" />
         <option value="$PROJECT_DIR$/version/latest-onbuild/Dockerfile" />
-        <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/versions" />
         <option value="$PROJECT_DIR$/Dockerfile.onbuild" />
+        <option value="$PROJECT_DIR$/version/latest/Dockerfile" />
+        <option value="$PROJECT_DIR$/LAUNCHER.README.md" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/versions" />
+        <option value="$PROJECT_DIR$/src/Dockerfile" />
+        <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
   </component>
@@ -973,24 +190,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node.docker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node.docker" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="version" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5.1.0" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1015,6 +214,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -1044,6 +246,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1065,7 +280,7 @@
       <workItem from="1467599963013" duration="3099000" />
       <workItem from="1467606200998" duration="21000" />
       <workItem from="1467855296679" duration="2056000" />
-      <workItem from="1474501777173" duration="1757000" />
+      <workItem from="1474501777173" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="change  FROM cusspvz/node to borgius/node-alpine">
       <created>1466982750659</created>
@@ -1088,21 +303,35 @@
       <option name="project" value="LOCAL" />
       <updated>1474503516947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rm old versions">
+      <created>1474503586888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474503586888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'src/master'&#10;&#10;# Conflicts:&#10;#&#9;Makefile&#10;#&#9;src/Dockerfile&#10;#&#9;version/5.0.0-development/Dockerfile&#10;#&#9;version/5.0.0-onbuild/Dockerfile&#10;#&#9;version/5.1.0-development/Dockerfile&#10;#&#9;version/5.1.0-onbuild/Dockerfile&#10;#&#9;version/5.1.1-development/Dockerfile&#10;#&#9;version/5.1.1-onbuild/Dockerfile&#10;#&#9;version/5.10.0/Dockerfile&#10;#&#9;version/5.10.1/Dockerfile&#10;#&#9;version/5.11.0/Dockerfile&#10;#&#9;version/5.11.1/Dockerfile&#10;#&#9;version/5.2.0-development/Dockerfile&#10;#&#9;version/5.2.0-onbuild/Dockerfile&#10;#&#9;version/5.3.0-development/Dockerfile&#10;#&#9;version/5.3.0-onbuild/Dockerfile&#10;#&#9;version/5.4.0-development/Dockerfile&#10;#&#9;version/5.4.0-onbuild/Dockerfile&#10;#&#9;version/5.4.1-development/Dockerfile&#10;#&#9;version/5.4.1-onbuild/Dockerfile&#10;#&#9;version/5.5.0-development/Dockerfile&#10;#&#9;version/5.5.0-onbuild/Dockerfile&#10;#&#9;version/5.6.0-development/Dockerfile&#10;#&#9;version/5.6.0-onbuild/Dockerfile&#10;#&#9;version/5.7.0-development/Dockerfile&#10;#&#9;version/5.7.0-onbuild/Dockerfile&#10;#&#9;version/5.7.1-development/Dockerfile&#10;#&#9;version/5.7.1-onbuild/Dockerfile&#10;#&#9;version/5.8.0-development/Dockerfile&#10;#&#9;version/5.8.0-onbuild/Dockerfile&#10;#&#9;version/5.9.0-development/Dockerfile&#10;#&#9;version/5.9.0-onbuild/Dockerfile&#10;#&#9;version/5.9.1-development/Dockerfile&#10;#&#9;version/5.9.1-onbuild/Dockerfile&#10;#&#9;version/5.9.1/Dockerfile&#10;#&#9;version/6.0.0-development/Dockerfile&#10;#&#9;version/6.0.0-onbuild/Dockerfile&#10;#&#9;version/6.0.0/Dockerfile&#10;#&#9;version/6.1.0-development/Dockerfile&#10;#&#9;version/6.1.0-onbuild/Dockerfile&#10;#&#9;version/6.1.0/Dockerfile&#10;#&#9;version/6.2.0-development/Dockerfile&#10;#&#9;version/6.2.0-onbuild/Dockerfile&#10;#&#9;version/6.2.0/Dockerfile&#10;#&#9;version/latest-development/Dockerfile&#10;#&#9;version/latest-onbuild/Dockerfile&#10;#&#9;version/latest/Dockerfile&#10;#&#9;versions&#10;">
+      <created>1474506255636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474506255636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16220000" />
+    <option name="totallyTimeSpent" value="19040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67058825" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1140,76 +369,14 @@
     <MESSAGE value="latest label" />
     <MESSAGE value="generate last versions" />
     <MESSAGE value="rm old versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="rm old versions" />
+    <MESSAGE value="Merge remote-tracking branch 'src/master'&#10;&#10;# Conflicts:&#10;#&#9;Makefile&#10;#&#9;src/Dockerfile&#10;#&#9;version/5.0.0-development/Dockerfile&#10;#&#9;version/5.0.0-onbuild/Dockerfile&#10;#&#9;version/5.1.0-development/Dockerfile&#10;#&#9;version/5.1.0-onbuild/Dockerfile&#10;#&#9;version/5.1.1-development/Dockerfile&#10;#&#9;version/5.1.1-onbuild/Dockerfile&#10;#&#9;version/5.10.0/Dockerfile&#10;#&#9;version/5.10.1/Dockerfile&#10;#&#9;version/5.11.0/Dockerfile&#10;#&#9;version/5.11.1/Dockerfile&#10;#&#9;version/5.2.0-development/Dockerfile&#10;#&#9;version/5.2.0-onbuild/Dockerfile&#10;#&#9;version/5.3.0-development/Dockerfile&#10;#&#9;version/5.3.0-onbuild/Dockerfile&#10;#&#9;version/5.4.0-development/Dockerfile&#10;#&#9;version/5.4.0-onbuild/Dockerfile&#10;#&#9;version/5.4.1-development/Dockerfile&#10;#&#9;version/5.4.1-onbuild/Dockerfile&#10;#&#9;version/5.5.0-development/Dockerfile&#10;#&#9;version/5.5.0-onbuild/Dockerfile&#10;#&#9;version/5.6.0-development/Dockerfile&#10;#&#9;version/5.6.0-onbuild/Dockerfile&#10;#&#9;version/5.7.0-development/Dockerfile&#10;#&#9;version/5.7.0-onbuild/Dockerfile&#10;#&#9;version/5.7.1-development/Dockerfile&#10;#&#9;version/5.7.1-onbuild/Dockerfile&#10;#&#9;version/5.8.0-development/Dockerfile&#10;#&#9;version/5.8.0-onbuild/Dockerfile&#10;#&#9;version/5.9.0-development/Dockerfile&#10;#&#9;version/5.9.0-onbuild/Dockerfile&#10;#&#9;version/5.9.1-development/Dockerfile&#10;#&#9;version/5.9.1-onbuild/Dockerfile&#10;#&#9;version/5.9.1/Dockerfile&#10;#&#9;version/6.0.0-development/Dockerfile&#10;#&#9;version/6.0.0-onbuild/Dockerfile&#10;#&#9;version/6.0.0/Dockerfile&#10;#&#9;version/6.1.0-development/Dockerfile&#10;#&#9;version/6.1.0-onbuild/Dockerfile&#10;#&#9;version/6.1.0/Dockerfile&#10;#&#9;version/6.2.0-development/Dockerfile&#10;#&#9;version/6.2.0-onbuild/Dockerfile&#10;#&#9;version/6.2.0/Dockerfile&#10;#&#9;version/latest-development/Dockerfile&#10;#&#9;version/latest-onbuild/Dockerfile&#10;#&#9;version/latest/Dockerfile&#10;#&#9;versions&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'src/master'&#10;&#10;# Conflicts:&#10;#&#9;Makefile&#10;#&#9;src/Dockerfile&#10;#&#9;version/5.0.0-development/Dockerfile&#10;#&#9;version/5.0.0-onbuild/Dockerfile&#10;#&#9;version/5.1.0-development/Dockerfile&#10;#&#9;version/5.1.0-onbuild/Dockerfile&#10;#&#9;version/5.1.1-development/Dockerfile&#10;#&#9;version/5.1.1-onbuild/Dockerfile&#10;#&#9;version/5.10.0/Dockerfile&#10;#&#9;version/5.10.1/Dockerfile&#10;#&#9;version/5.11.0/Dockerfile&#10;#&#9;version/5.11.1/Dockerfile&#10;#&#9;version/5.2.0-development/Dockerfile&#10;#&#9;version/5.2.0-onbuild/Dockerfile&#10;#&#9;version/5.3.0-development/Dockerfile&#10;#&#9;version/5.3.0-onbuild/Dockerfile&#10;#&#9;version/5.4.0-development/Dockerfile&#10;#&#9;version/5.4.0-onbuild/Dockerfile&#10;#&#9;version/5.4.1-development/Dockerfile&#10;#&#9;version/5.4.1-onbuild/Dockerfile&#10;#&#9;version/5.5.0-development/Dockerfile&#10;#&#9;version/5.5.0-onbuild/Dockerfile&#10;#&#9;version/5.6.0-development/Dockerfile&#10;#&#9;version/5.6.0-onbuild/Dockerfile&#10;#&#9;version/5.7.0-development/Dockerfile&#10;#&#9;version/5.7.0-onbuild/Dockerfile&#10;#&#9;version/5.7.1-development/Dockerfile&#10;#&#9;version/5.7.1-onbuild/Dockerfile&#10;#&#9;version/5.8.0-development/Dockerfile&#10;#&#9;version/5.8.0-onbuild/Dockerfile&#10;#&#9;version/5.9.0-development/Dockerfile&#10;#&#9;version/5.9.0-onbuild/Dockerfile&#10;#&#9;version/5.9.1-development/Dockerfile&#10;#&#9;version/5.9.1-onbuild/Dockerfile&#10;#&#9;version/5.9.1/Dockerfile&#10;#&#9;version/6.0.0-development/Dockerfile&#10;#&#9;version/6.0.0-onbuild/Dockerfile&#10;#&#9;version/6.0.0/Dockerfile&#10;#&#9;version/6.1.0-development/Dockerfile&#10;#&#9;version/6.1.0-onbuild/Dockerfile&#10;#&#9;version/6.1.0/Dockerfile&#10;#&#9;version/6.2.0-development/Dockerfile&#10;#&#9;version/6.2.0-onbuild/Dockerfile&#10;#&#9;version/6.2.0/Dockerfile&#10;#&#9;version/latest-development/Dockerfile&#10;#&#9;version/latest-onbuild/Dockerfile&#10;#&#9;version/latest/Dockerfile&#10;#&#9;versions&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version/latest/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version/latest-development/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version/latest-onbuild/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version/0.1.100-development/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version/5.9.0-onbuild/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1418,26 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version/0.1.100-development/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1448,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/version/latest-development/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1465,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/version/latest-onbuild/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1483,28 +630,6 @@
           <caret line="29" column="75" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="75" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/versions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ONBUILD.README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1527,14 +652,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version/5.1.0/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1551,10 +668,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LAUNCHER.README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="109">
+            <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/launcher">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.travis.latest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dockerfile.onbuild">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dockerfile.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entrypoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ONBUILD.README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="702">
+            <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/version/latest/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="20" />
           <folding />
         </state>
       </provider>

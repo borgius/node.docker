@@ -95,10 +95,10 @@ for each package.
 
 ## Seems nice!! I'm gona use it on my next project!
 
-Cool!! Rate and tweet [GitHub repo](//github.com/cusspvz/node.docker) so others can know about this.
+Cool!! Rate and tweet [GitHub repo](//github.com/borgius/node.docker) so others can know about this.
 
 ## What if I want to access and execute some shitty shell things?
 
 ```bash
-docker run --rm -ti cusspvz/node:0.12.7 shell
+docker run --rm -ti borgius/node-alpine:0.12.7 shell
 ```

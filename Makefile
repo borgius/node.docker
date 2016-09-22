@@ -24,17 +24,16 @@ fetch-versions:
 	@wget https://nodejs.org/dist/ -O - 2>/dev/null | \
 	grep "/\">v" | grep -v isaacs-manual | \
 	sed -e 's/<a href="v\(.*\)\/".*/\1/' | \
-	sort -t . -k1,1nr -k2,1nr -k3,1nr \
-		>> ./versions
+	sort -t . -g -r | head -n 10 >> ./versions
 	@cat versions
 
 generate-version:
 	@echo "Generating version dockerfiles: ${VERSION_PATH}"
 	@mkdir -p ${VERSION_PATH}
 	@cat src/Dockerfile | sed -e "s/NODE_VERSION=latest/NODE_VERSION=${VERSION}/" >${VERSION_PATH}/Dockerfile
-	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_PATH}/Dockerfile.onbuild;
+	@echo "FROM borgius/node-alpine:${VERSION}" >${VERSION_PATH}/Dockerfile.onbuild;
 	@cat src/Dockerfile.onbuild >> ${VERSION_PATH}/Dockerfile.onbuild;
-	@echo "FROM cusspvz/node:${VERSION}" >${VERSION_PATH}/Dockerfile.development;
+	@echo "FROM borgius/node-alpine:${VERSION}" >${VERSION_PATH}/Dockerfile.development;
 	@cat src/Dockerfile.development >> ${VERSION_PATH}/Dockerfile.development;
 ifeq ($(VERSION),latest)
 	@cp src/.travis.latest.yml ${VERSION_PATH}/.travis.yml;
@@ -49,7 +48,7 @@ generate-tag-version:
 	mkdir -p ${VERSION_PATH} && \
 	cd ${VERSION_PATH} && \
 	git init && \
-	git remote add origin git@github.com:cusspvz/node.docker.git && \
+	git remote add origin git@github.com:borgius/node.docker.git && \
 	{ \
 		git fetch origin ${VERSION_PATH} && \
 			git checkout ${VERSION_PATH} || \
@@ -72,10 +71,10 @@ generate-tag-version:
 
 build: generate-version
 	@echo "Building :${TAG} with ${VERSION} version"
-	@docker build -t cusspvz/node:${TAG} ${VERSION_PATH}
+	@docker build -t borgius/node-alpine:${TAG} ${VERSION_PATH}
 
 push: build
-	docker push cusspvz/node:${TAG}
+	docker push borgius/node-alpine:${TAG}
 
 generate-version-all: fetch-versions
 	@for VERSION in $(shell cat versions); do \

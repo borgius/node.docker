@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cusspvz/node.docker.git"
+    "url": "https://github.com/borgius/node.docker.git"
   },
   "keywords": [
     "docker",
@@ -25,7 +25,7 @@
   "author": "José Moreira <jose.moreira@findhit.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/cusspvz/node.docker/issues"
+    "url": "https://github.com/borgius/node.docker/issues"
   },
-  "homepage": "https://github.com/cusspvz/node.docker"
+  "homepage": "https://github.com/borgius/node.docker"
 }
