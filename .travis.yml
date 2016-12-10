@@ -1,0 +1,20 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - |
+    export VERSION=$(basename $TRAVIS_BRANCH) &&
+    docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD" &&
+    docker build -t borgius/node-alpine:latest . &&
+
+    docker run -ti --rm borgius/node-alpine:latest ping &&
+
+    docker build -t borgius/node-alpine:onbuild -f Dockerfile.onbuild . &&
+    docker build -t borgius/node-alpine:development -f Dockerfile.development . &&
+
+    docker push borgius/node-alpine:latest &&
+    docker push borgius/node-alpine:onbuild &&
+    docker push borgius/node-alpine:development &&
+    exit 0 || exit 1
