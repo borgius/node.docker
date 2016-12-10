@@ -2618,7 +2618,7 @@ building it!
 
 ![layers](https://images.microbadger.com/badges/image/borgius/node-alpine:0.1.14-onbuild.svg) `borgius/node-alpine:0.1.14-onbuild`
 
-![layers](https://images.microbadger.com/badges/image/borgius/node-alpine:0.1.14-development.svg) `borgius/node-alpine:0.1.14-development`
+![layers](https://images.microbadger.com/badges/image/borgius/node-alpine:0.1.14-development.svg) `--privileged`
 
 
 ## Developing
