@@ -47,7 +47,7 @@ RUN [ "${NODE_VERSION}" == "latest" ] && { \
     exit 0 || exit 1;
 
 WORKDIR /app
-ADD https://raw.githubusercontent.com/cusspvz/node.docker/master/src/entrypoint /bin/entrypoint
+ADD https://raw.githubusercontent.com/borgius/node.docker/master/src/entrypoint /bin/entrypoint
 RUN chmod +x /bin/entrypoint
 ENTRYPOINT [ "/bin/entrypoint" ]
 CMD [ "" ]

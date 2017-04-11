@@ -21,7 +21,7 @@ bash-3.2$ node.docker 0.12.7
 >
 bash-3.2$ node.docker 4.1.1
 Unable to find image 'borgius/node-alpine:4.1.1' locally
-4.1.1: Pulling from cusspvz/node
+4.1.1: Pulling from borgius/node
 9caf287e1f2d: Pull complete
 8119db1f2d0a: Pull complete
 61f0af81675f: Pull complete

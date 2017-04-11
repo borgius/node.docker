@@ -4,12 +4,12 @@ REPO_PATH := $(shell pwd)
 
 ifeq ($(VERSION),latest)
 	VERSION := $(LATEST_VERSION)
-	TAG := latest
+	TAG ?= latest
 else
-	TAG := $(VERSION)
+	TAG ?= $(VERSION)
 endif
 
-VERSION_PATH := version/${TAG}
+VERSION_PATH := version/${VERSION}
 
 clean: clean-all-docker-images
 
@@ -69,12 +69,24 @@ generate-tag-version:
 	{ echo "${VERSION}: Finished with some errors, please check." && exit 1; }
 
 
-build: generate-version
+build: generate-tag-version
 	@echo "Building :${TAG} with ${VERSION} version"
+	@echo "build -t borgius/node-alpine:${TAG} ${VERSION_PATH}"
 	@docker build -t borgius/node-alpine:${TAG} ${VERSION_PATH}
+
+build-tags: generate-version
+	@echo "Building :${TAG} with ${VERSION} version"
+	@docker build -t borgius/node-alpine:${VERSION} ${VERSION_PATH}
+	@docker build -t borgius/node-alpine:${VERSION}-dev -f ${VERSION_PATH}/Dockerfile.development ${VERSION_PATH}
+	@docker build -t borgius/node-alpine:${VERSION}-onbuild -f ${VERSION_PATH}/Dockerfile.onbuild ${VERSION_PATH}
 
 push: build
 	docker push borgius/node-alpine:${TAG}
+
+push-tags: build-tags
+	docker push borgius/node-alpine:${VERSION}
+	docker push borgius/node-alpine:${VERSION}-dev
+	docker push borgius/node-alpine:${VERSION}-onbuild
 
 generate-version-all: fetch-versions
 	@for VERSION in $(shell cat versions); do \
@@ -91,9 +103,20 @@ build-all: fetch-versions
 		make VERSION=$$VERSION build; \
 	done;
 
+build-all-tags: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION build-tags; \
+	done;
+
+
 push-all: fetch-versions
 	@for VERSION in $(shell cat versions); do \
 		make VERSION=$$VERSION push; \
+	done;
+
+push-all-tags: fetch-versions
+	@for VERSION in $(shell cat versions); do \
+		make VERSION=$$VERSION push-tags; \
 	done;
 
 deploy: generate-tag-version-all
