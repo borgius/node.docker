@@ -27,7 +27,7 @@ RUN echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/re
     rm -fR /var/cache/apk/*
 
 # glibc for alpine
-RUN wget -O - "http://github.com/borgius/node.docker/raw/master/apks.tar.gz" | tar xvz -C /tmp
+# RUN wget -O - "http://github.com/borgius/node.docker/raw/master/apks.tar.gz" | tar xvz -C /tmp
 ADD apks.tar.gz /tmp/
 RUN  ls /tmp/ && apk add --force --allow-untrusted \
         /tmp/apks/glibc-2.21-r2.apk \
