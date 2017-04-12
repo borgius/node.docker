@@ -69,16 +69,16 @@ generate-tag-version:
 	{ echo "${VERSION}: Finished with some errors, please check." && exit 1; }
 
 
-build: generate-tag-version
+build: generate-version
 	@echo "Building :${TAG} with ${VERSION} version"
 	@echo "build -t borgius/node-alpine:${TAG} ${VERSION_PATH}"
-	@docker build -t borgius/node-alpine:${TAG} ${VERSION_PATH}
+	@docker build -t borgius/node-alpine:${TAG} -f ${VERSION_PATH}/Dockerfile .
 
-build-tags: generate-version
+build-tags: generate-tag-version
 	@echo "Building :${TAG} with ${VERSION} version"
-	@docker build -t borgius/node-alpine:${VERSION} ${VERSION_PATH}
-	@docker build -t borgius/node-alpine:${VERSION}-dev -f ${VERSION_PATH}/Dockerfile.development ${VERSION_PATH}
-	@docker build -t borgius/node-alpine:${VERSION}-onbuild -f ${VERSION_PATH}/Dockerfile.onbuild ${VERSION_PATH}
+	@docker build -t borgius/node-alpine:${VERSION} -f ${VERSION_PATH}/Dockerfile .
+	@docker build -t borgius/node-alpine:${VERSION}-dev -f ${VERSION_PATH}/Dockerfile.development .
+	@docker build -t borgius/node-alpine:${VERSION}-onbuild -f ${VERSION_PATH}/Dockerfile.onbuild .
 
 push: build
 	docker push borgius/node-alpine:${TAG}
